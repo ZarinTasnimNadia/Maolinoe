@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Zarin Tasnim Nadia | Portfolio",
+  title: "Zarin Tasnim | Portfolio",
   description: "Zarin Tasnim Nadia, a computer science student and software developer showcasing projects, research, and skills.",
 };
 
