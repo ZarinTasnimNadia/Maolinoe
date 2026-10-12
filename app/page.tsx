@@ -161,7 +161,7 @@ export default function Portfolio() {
                 className="w-24 h-24 mb-2 filter drop-shadow-[0_0_12px_rgba(244,114,182,0.6)]"
               />
               <span className="pixel-font text-[10px] text-pink-300">LEVEL 2027 DEVELOPER</span>
-              <span className="text-xs text-gray-400 mt-1">BRAC University • CGPA 3.74</span>
+              <span className="text-xs text-gray-400 mt-1">BRAC University • CGPA 3.77</span>
             </div>
           </div>
         </section>
