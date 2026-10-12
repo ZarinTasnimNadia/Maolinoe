@@ -32,7 +32,7 @@ export default function Portfolio() {
     {
       title: "Haven Campus Utility",
       category: "Backend Engine",
-      description: "FastAPI-powered campus space locator to optimize laboratory and classroom study spot allocations.",
+      description: "FastAPI-powered campus space locator to optimize laboratory and classroom study spot allocations. (In Progress)",
       tech: ["FastAPI", "Python", "SQL"],
       github: "https://github.com/ZarinTasnimNadia/haven-data",
       sprite: "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/700.gif" // Sylveon
