@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --bg-jet: #0b0b0e;
+  --pink-accent: #f472b6;
+  --pink-glow: rgba(244, 114, 182, 0.25);
+}
+
+body {
+  background-color: var(--bg-jet);
+  color: #f3f4f6;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+}
+
+.pixel-font {
+  font-family: 'Press Start 2P', monospace;
+}
+
+/* Subtle retro pixel border */
+.pixel-box {
+  border: 2px solid #ec4899;
+  box-shadow: 4px 4px 0px #be185d, 0 0 15px var(--pink-glow);
+  image-rendering: pixelated;
+}
+
+.pixel-card {
+  background: rgba(18, 18, 24, 0.85);
+  border: 1px solid rgba(244, 114, 182, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+
+.pixel-card:hover {
+  border-color: rgba(244, 114, 182, 0.8);
+  box-shadow: 0 0 20px rgba(244, 114, 182, 0.2);
+  transform: translateY(-3px);
+}
+
+/* Subtle CRT retro scanline overlay */
+.scanline {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.25) 50%
+  );
+  background-size: 100% 4px;
+}
